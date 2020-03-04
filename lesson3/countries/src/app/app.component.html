@@ -1,0 +1,12 @@
+<h1>Countries</h1>
+<button (click)="getCountries()"> Get Countries</button>
+<ul>
+  <li *ngFor="let c of  countryArray">
+    {{c.name}}, {{c.population}} 
+  </li>
+</ul>
+<div *ngIf="countriesService.maxCountry">{{countriesService.maxCountry.name}} , {{countriesService.maxCountry.population}} </div>
+
+<img *ngFor="let item of countriesService.urlArrya" [src]="item" style="width: 100px;"> 
+
+<app-footer></app-footer>
