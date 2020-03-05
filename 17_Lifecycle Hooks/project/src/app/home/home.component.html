@@ -1,0 +1,10 @@
+<button (click)="changeMsg()">
+    change msg in child
+</button>
+
+
+<button (click)="toggleChild()">
+    toggle Child
+</button>
+
+<app-homeContent *ngIf="showChild" [msg]="parentMsg"></app-homeContent>

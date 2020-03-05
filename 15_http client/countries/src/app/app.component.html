@@ -1,0 +1,15 @@
+<h1>Countries</h1>
+
+<button (click)="getCountries()">Get Countries</button>
+
+
+<img *ngFor="let i of urlArray" [src]="i" style="width:100px"/>
+
+<ul>
+  <li *ngFor="let c of countryArray">
+    {{c.name}}, {{c.population}}
+  </li>
+</ul>
+
+
+<app-footer></app-footer>

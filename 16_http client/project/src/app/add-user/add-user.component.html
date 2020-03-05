@@ -1,0 +1,24 @@
+<h3>
+  add new user:
+</h3>
+
+
+
+<p>name:</p>
+<input type="text" [(ngModel)]="newUser.name"/>
+
+
+<p>job:</p>
+<input type="text" [(ngModel)]="newUser.job"/>
+
+<br><br>
+
+<button (click)="addUser()">add user</button>
+
+
+<div *ngIf="myRootObject.newUser">
+    <h3>New user added successfully</h3>
+    <p>id: {{myRootObject.newUser.id}}</p>
+    <p>name: {{myRootObject.newUser.name}}</p>
+    <p>createdAt: {{myRootObject.newUser.createdAt}}</p>
+</div>
