@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <script>
+
+                var arr;
+
+                function test(flag) {
+                        if (flag) {
+                                arr = [];
+                                for (let i = 0; i < 10000; arr[i++] = i);
+                        }
+                        else {
+                                arr = null;
+                        }
+                }
+
+        </script>
+</head>
+
+<body>
+        <button onclick="test(true)">init arr</button>
+        <button onclick="test(false)">clean arr</button>
+</body>
+
+</html>

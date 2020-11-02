@@ -1,0 +1,172 @@
+
+{
+,
+    "Macao": {
+        "confirmed": 10,
+        "suspected": 0,
+        "cured": 10,
+        "dead": 0
+    },
+    "Italy": {
+        "confirmed": 12462,
+        "suspected": 0,
+        "cured": 1045,
+        "dead": 827
+    },
+    "South Korea": {
+        "confirmed": 7869,
+        "suspected": 0,
+        "cured": 288,
+        "dead": 61
+    },
+    "Other Countries": {
+        "confirmed": 14270,
+        "suspected": 0,
+        "cured": 3357,
+        "dead": 458
+    },
+    "France": {
+        "confirmed": 2281,
+        "suspected": 0,
+        "cured": 12,
+        "dead": 48
+    },
+    "Spain": {
+        "confirmed": 2256,
+        "suspected": 0,
+        "cured": 183,
+        "dead": 56
+    },
+    "Germany": {
+        "confirmed": 1567,
+        "suspected": 0,
+        "cured": 14,
+        "dead": 3
+    },
+    "US": {
+        "confirmed": 1004,
+        "suspected": 0,
+        "cured": 10,
+        "dead": 31
+    },
+    "Japan": {
+        "confirmed": 657,
+        "suspected": 0,
+        "cured": 102,
+        "dead": 17
+    },
+    "Sweden": {
+        "confirmed": 500,
+        "suspected": 0,
+        "cured": 0,
+        "dead": 8
+    },
+    "UK": {
+        "confirmed": 460,
+        "suspected": 0,
+        "cured": 8,
+        "dead": 6
+    },
+    "Belgium": {
+        "confirmed": 399,
+        "suspected": 0,
+        "cured": 1,
+        "dead": 3
+    },
+    "Japan (Diamond Princess)": {
+        "confirmed": 697,
+        "suspected": 0,
+        "cured": 427,
+        "dead": 7
+    },
+    "Australia": {
+        "confirmed": 144,
+        "suspected": 0,
+        "cured": 24,
+        "dead": 3
+    },
+    "Malaysia": {
+        "confirmed": 129,
+        "suspected": 0,
+        "cured": 23,
+        "dead": 0
+    },
+    "Canada": {
+        "confirmed": 107,
+        "suspected": 0,
+        "cured": 4,
+        "dead": 1
+    },
+    "Singapore": {
+        "confirmed": 166,
+        "suspected": 0,
+        "cured": 82,
+        "dead": 0
+    },
+    "India": {
+        "confirmed": 73,
+        "suspected": 0,
+        "cured": 3,
+        "dead": 0
+    },
+    "Arab Emirates": {
+        "confirmed": 74,
+        "suspected": 0,
+        "cured": 7,
+        "dead": 0
+    },
+    "Finland": {
+        "confirmed": 65,
+        "suspected": 0,
+        "cured": 1,
+        "dead": 0
+    },
+    "Egypt": {
+        "confirmed": 67,
+        "suspected": 0,
+        "cured": 8,
+        "dead": 1
+    },
+    "Philippines": {
+        "confirmed": 52,
+        "suspected": 0,
+        "cured": 1,
+        "dead": 2
+    },
+    "Thailand": {
+        "confirmed": 70,
+        "suspected": 0,
+        "cured": 34,
+        "dead": 1
+    },
+    "Vietnam": {
+        "confirmed": 44,
+        "suspected": 0,
+        "cured": 16,
+        "dead": 0
+    },
+    "Russia": {
+        "confirmed": 28,
+        "suspected": 0,
+        "cured": 3,
+        "dead": 0
+    },
+    "Cambodia": {
+        "confirmed": 5,
+        "suspected": 0,
+        "cured": 1,
+        "dead": 0
+    },
+    "Sri Lanka": {
+        "confirmed": 3,
+        "suspected": 0,
+        "cured": 1,
+        "dead": 0
+    },
+    "Nepal": {
+        "confirmed": 1,
+        "suspected": 0,
+        "cured": 1,
+        "dead": 0
+    }
+}

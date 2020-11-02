@@ -1,0 +1,25 @@
+<div class="wrapper">
+    <div class="header">
+        <h1 class="header__title">Total Info</h1>
+    </div>
+
+    <div class="cards">
+
+        <p *ngFor="let key of obj.keys(total)" class="card">
+            {{key}} : {{total[key]}}
+        </p>
+    </div>
+</div>
+
+
+<div class="wrapper">
+    <div class="header">
+        <h1 class="header__title">Per country Info</h1>
+    </div>
+    <div class="cards">
+        <app-single-statistic class="card" *ngFor="let c of countryArr" [info]="c">
+
+        </app-single-statistic>
+    </div>
+</div>
+<app-addv  [sbj]="'statistics'" [serverMsg]="serverMsg"></app-addv>

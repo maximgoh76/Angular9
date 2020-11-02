@@ -1,0 +1,11 @@
+<div class="wrapper">
+    <div class="header">
+        <h1 class="header__title">Best {{doctorArr.length}} Doctors:</h1>
+    </div>
+
+    <div class="cards">
+
+        <app-single-doctor class="card" *ngFor="let d of doctorArr" [info]="d">
+        </app-single-doctor>
+    </div>
+</div>

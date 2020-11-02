@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        (function test() {
+
+            console.profile("t1");
+            for (let i = 0; i < 10 ** 10; i++);
+            console.profileEnd("t1");
+
+
+            console.profile("t2");
+            console.log("hello world");
+            console.profileEnd("t2");
+        })();
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

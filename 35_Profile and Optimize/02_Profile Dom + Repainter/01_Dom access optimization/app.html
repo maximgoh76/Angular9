@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+        p {
+            margin-top: 200px;
+        }
+
+        .tst {
+            color: #00ff11;
+            background-color: #0022ff;
+            border-color: #00ff11;
+            border-bottom-width: 10px;
+            border-bottom-style: dashed
+        }
+    </style>
+    <script>
+        function f1() {
+            console.time("a");
+            document.getElementById("test").style.color = "#00ff00";
+            document.getElementById("test").style.backgroundColor = "#ff0000";
+            document.getElementById("test").style.borderColor = "#00ff00";
+            document.getElementById("test").style.borderBottomWidth = "7px";
+            document.getElementById("test").style.borderBottomStyle = "dashed";
+            console.timeEnd("a");
+        }
+
+        function f2() {
+            console.time("b");
+            let elm = document.getElementById("test");
+            elm.style.color = "#ff0000";
+            elm.style.backgroundColor = "#0000ff";
+            elm.style.borderColor = "#ff0000";
+            elm.style.borderBottomWidth = "8px";
+            elm.style.borderBottomStyle = "dashed";
+            console.timeEnd("b");
+        }
+
+
+
+        function f3() {
+            console.time("c");
+            document.getElementById("test").setAttribute(
+                "style", `color:#00ff00;
+                        background-color:#0000ff;
+                        border-color:#00ff00;
+                        border-bottom-width:9px;
+                        border-bottom-style:dashed`);
+            console.timeEnd("c");
+        }
+
+
+        function f4() {
+            console.time("d");
+            document.getElementById("test").classList.add("tst");
+            console.timeEnd("d");
+        }
+
+    </script>
+</head>
+
+<body>
+    <h1 id="test">hello</h1>
+    <button onclick="f1()">non - opt</button>
+    <button onclick="f2()">opt low</button>
+    <button onclick="f3()">opt high 1</button>
+    <button onclick="f4()">opt high 2</button>
+
+
+    <p>hello world</p>
+</body>
+
+</html>

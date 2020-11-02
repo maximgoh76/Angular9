@@ -1,0 +1,22 @@
+<div class="text-center">
+    <h1 class="margin">Meat &amp; Wine</h1>
+    <h3 class="margin">Kosher meat restaurant</h3>
+</div>
+
+<hr/>
+
+<div class="row">
+
+  <div *ngFor="let x of branchList" class="col-sm-offset-2 col-sm-3">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <p>
+          <span class="glyphicon glyphicon-map-marker"></span>&nbsp;{{x.address}}</p>
+        <p>
+          <span class="glyphicon glyphicon-phone"></span>&nbsp;{{x.phone}}</p>
+        <p>
+          <span class="glyphicon glyphicon-envelope"></span>&nbsp;{{x.mail}}</p>
+      </div>
+    </div>
+  </div>
+</div>
